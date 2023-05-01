@@ -1,0 +1,11 @@
+- A normalização é feita após a divisão treino/teste.
+- A normalização/desnormalização dos dados deve ser feita com as estatísticas dos dados de treino.
+- Os dados de teste nunca são usados no treinamento.
+- Cuidado ao usar a função flatten() para criar os atributos polinomiais, pois você pode misturar instâncias e atributos.
+- Em vez de sortear uma instância do conjunto de dados no SGD, é melhor permutar os dados e seguir na sequência.
+- No SGD, os parâmetros são atualizados a partir do erro em uma única instância.
+- Aproveitem os recursos de computação vetorial/matricial do numpy. Evitem loops desnecessários.
+- Faça a divisão treino-teste antes de avaliar diferentes graus de polinômio.
+- Não esqueçam do termo constante 1 ao montar os atributos polinomiais.
+- PolynomialFeatures() do sklearn cria valores cruzados, que não escalam para muitos atributos.
+- Quem fizer a lista no Google Colab, por favor, faça o download e me envie o Jupyter notebook, evitando alterações após o envio.
