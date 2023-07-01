@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/GitHub/MachineLearning/Lista%206/mlruns/0/7f02ec930086433b9b54a08bc8849959/artifacts
+end_time: 1687755401922
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7f02ec930086433b9b54a08bc8849959
+run_name: adorable-calf-400
+run_uuid: 7f02ec930086433b9b54a08bc8849959
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687755395661
+status: 3
+tags: []
+user_id: louis
